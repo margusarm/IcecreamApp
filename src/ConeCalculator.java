@@ -34,8 +34,7 @@ public class ConeCalculator {
         return (Math.PI * Math.pow(this.getRadius(), 2) * height)/3;
     }
 
-    public double getArea() {return Math.PI * this.getRadius() *(this.getRadius() +
-            Math.sqrt((Math.pow(this.getRadius(), 2) + Math.pow(height, 2))));}
+    public double getConeArea() {return Math.PI * this.getRadius() * (Math.sqrt((Math.pow(this.getRadius(), 2) + Math.pow(height, 2))));}
 
     public double getIcecreamCount () {return icecream / this.getVolume();}
 
