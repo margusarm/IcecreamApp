@@ -1,6 +1,3 @@
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-
 public class ConeCalculator {
     private double diameter;
     private double height;

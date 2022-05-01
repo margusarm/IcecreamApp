@@ -1,8 +1,6 @@
-
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Scanner;
-
 
 public class ConeCalculatorApp {
     public static void main(String[] args) {
